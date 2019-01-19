@@ -1,0 +1,5 @@
+2019-01-19-main-INFO -com.cg.mob.dao.UniversityDaoImpl:in View method
+2019-01-19-main-INFO -com.cg.mob.dao.UniversityDaoImpl:in View method
+2019-01-19-main-INFO -com.cg.mob.dao.UniversityDaoImpl:Statement Object created
+2019-01-19-main-INFO -com.cg.mob.dao.UniversityDaoImpl:Execute Query Called
+2019-01-19-main-ERROR-com.cg.mob.dao.UniversityDaoImpl:In Finally Block
