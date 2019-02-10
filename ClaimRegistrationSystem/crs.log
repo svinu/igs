@@ -1,0 +1,243 @@
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-07-main-ERROR-com.cg.crs.dao.CRSDaoImpl:ORA-02289: sequence does not exist
+
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-07-main-ERROR-com.cg.crs.dao.CRSDaoImpl:ORA-00001: unique constraint (SYSTEM.SYS_C007420) violated
+
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-07-main-ERROR-com.cg.crs.dao.CRSDaoImpl:ORA-00001: unique constraint (SYSTEM.SYS_C007420) violated
+
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-07-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-ERROR-com.cg.crs.dao.CRSDaoImpl:ORA-02291: integrity constraint (SYSTEM.SYS_C007421) violated - parent key not found
+
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-08-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-09-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-10-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:in add Customer method
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection object created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:execute update called
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:IN Finally BLOCK
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:connection created
+2019-02-11-main-INFO -com.cg.crs.dao.implementation.CRSDaoImpl:Claim History viewed successfully
