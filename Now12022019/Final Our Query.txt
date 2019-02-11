@@ -1,0 +1,93 @@
+drop table policy_details;
+drop table claim_questions;
+drop table claim;
+drop table policy;
+drop table business_Segment;
+drop table accounts;
+drop table user_role;
+drop sequence claim_seq;
+
+CREATE TABLE User_Role(Username varchar2(20) primary key, password varchar2(20) not null, role_Code varchar2(10) not null);
+
+insert into user_role values('User1', 'user1', 'INSURED');
+insert into user_role values('User2', 'user2', 'INSURED');
+insert into user_role values('User3', 'user3', 'INSURED');
+insert into user_role values('Agent1', 'agent1', 'AGENT');
+insert into user_role values('Agent2', 'agent2', 'AGENT');
+insert into user_role values('Admin', 'admin', 'ADMIN');
+
+create table business_segment(bus_seg_id varchar2(10) primary key, bus_seg_seq number(3), bus_seg_name varchar2(20));
+insert into business_segment values('Buss_Auto', 100, 'Business Auto');
+insert into business_segment values('Res', 110, 'Restaurant');
+insert into business_segment values('Apt', 120, 'Apartment');
+insert into business_segment values('Gnrl_Mrcht', 130, 'General Merchant');
+
+CREATE TABLE Accounts(account_number number(10) primary key,insured_name varchar2(30), insured_street varchar2(40), insured_city varchar2(15),insured_state varchar2(15), insured_zip number(5), username varchar2(20) references user_role(username));
+insert into accounts values(1200001000,'Vinod Kumar', 'Sowcarpet', 'Chennai', 'Tamil Nadu', '60001', 'User1');
+insert into accounts values(1200001001,'Rex', 'Anderi East', 'Mumbai', 'Maharashtra', '50018', 'User2');
+insert into accounts values(1200001002,'Sarvana', 'Tar naka', 'Hyderabad', 'Telangana', '50018', 'User3');
+insert into accounts values(1200001003,'Lassi', 'Benz Circle', 'Vijayawada', 'Andra Pradesh ', '50018', 'Agent1');
+insert into accounts values(1200001004,'Lassy', 'BHEL', 'Hyderabad', 'Telangana', '50018', 'Agent1');
+insert into accounts values(1200001005,'Akshaya', 'Jan Mohd', 'Pune', 'Maharashtra', '41101', 'Agent2');
+insert into accounts values(1200001006,'Akshaya Balakrisnan', 'Street', 'Agra', 'Delhi', '41101', 'Admin');
+
+
+create table policy(policy_number number(10) primary key, policy_premium number(8), account_number number(10) references Accounts(account_number), bus_Seg_id varchar2(10) references business_segment(bus_seg_id));
+
+insert into policy values(8100001000, 7839.33,1200001000,'Buss_Auto');
+insert into policy values(8100001001, 7839.33,1200001000,'Res');
+insert into policy values(8100001002, 7839.33,1200001000,'Apt');
+insert into policy values(8100001003, 7839.33,1200001000,'Gnrl_Mrcht');
+
+insert into policy values(8100001004, 4549.33,1200001001,'Buss_Auto');
+insert into policy values(8100001005, 7856.33,1200001001,'Res');
+insert into policy values(8100001006, 4539.33,1200001001,'Apt');
+insert into policy values(8100001007, 7869.33,1200001001,'Gnrl_Mrcht');
+
+insert into policy values(8100001008, 4899.33,1200001002,'Buss_Auto');
+insert into policy values(8100001009, 7546.33,1200001002, 'Res');
+insert into policy values(8100001010, 7546.33,1200001002, 'Apt');
+insert into policy values(8100001011, 7546.33,1200001002, 'Gnrl_Mrcht');
+
+insert into policy values(8100001012, 7546.33,1200001003, 'Buss_Auto');
+insert into policy values(8100001013, 7546.33,1200001003, 'Res');
+insert into policy values(8100001014, 7546.33,1200001003, 'Apt');
+insert into policy values(8100001015, 7546.33,1200001003, 'Gnrl_Mrcht');
+
+insert into policy values(8100001016, 7546.33,1200001004, 'Buss_Auto');
+insert into policy values(8100001017, 7546.33,1200001004, 'Res');
+insert into policy values(8100001018, 7546.33,1200001004, 'Apt');
+insert into policy values(8100001019, 7546.33,1200001004, 'Gnrl_Mrcht');
+
+insert into policy values(8100001020, 7546.33,1200001005, 'Buss_Auto');
+insert into policy values(8100001021, 7546.33,1200001005, 'Res');
+insert into policy values(8100001022, 7546.33,1200001005, 'Apt');
+insert into policy values(8100001023, 7546.33,1200001005, 'Gnrl_Mrcht');
+
+
+create table claim(claim_number number(10) primary key, claim_reason varchar2(30), accident_street varchar2(40), accident_city varchar2(15), accident_state varchar2(15), accident_zip number(5), claim_type varchar2(30), policy_number number(10) references policy(policy_number));
+
+create sequence claim_seq start with 9000100000 increment by 1;
+
+create table claim_questions(claim_ques_id varchar2(10) primary key, claim_ques_seq number(3), bus_seg_id varchar2(10) references business_segment(bus_seg_id), claim_ques_desc varchar2(80), claim_ques_ans1 varchar2(30),claim_ques_ans1_weightage number(5), claim_ques_ans2 varchar2(30),claim_ques_ans2_weightage number(5), claim_ques_ans3 varchar2(30),claim_ques_ans3_weightage number(5), claim_ques_ans4 varchar2(30),claim_ques_ans4_weightage number(5));
+
+insert into claim_questions values(3000,100,'Buss_Auto','Claim Amount Reimbursement? ','75%' ,100,'50%',200,'25%',300,'100%',400 );
+insert into claim_questions values(3001,101,'Buss_Auto','Do you have desired Bills? ','Yes' ,100,'No',200,'Not Sure',300,'Other',400 );
+insert into claim_questions values(3002,102,'Buss_Auto','Paid Insurance Amounts On Time?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3003,103,'Buss_Auto','Applied FIR?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3004,104,'Res','Claim Amount Reimbursement? ','75%' ,100,'50%',200,'25%',300,'100%',400 );
+insert into claim_questions values(3005,105,'Res','Do you have desired Bills? ','Yes' ,100,'No',200,'Not Sure',300,'Other',400 );
+insert into claim_questions values(3006,106,'Res','Paid Insurance Amounts On Time?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3007,107,'Res','Applied FIR?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3008,108,'Apt','claim amount to be reimbursed for Home? ','75%' ,100,'50%',200,'25%',300,'100%',400 );
+insert into claim_questions values(3009,109,'Apt','Do you have desired bill for Home? ','Yes' ,100,'No',200,'Not Sure',300,'Other',400 );
+insert into claim_questions values(3010,110,'Apt','Paid Insurance on time for Home? ','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3011,111,'Apt','Applied FIR for Home?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3012,112,'Gnrl_Mrcht','claim amount to be reimbursed for Merchant? ','75%' ,100,'50%',200,'25%',300,'100%',400 );
+insert into claim_questions values(3013,113,'Gnrl_Mrcht','Do you have desired bill for Merchant? ','Yes' ,100,'No',200,'Not Sure',300,'Other',400 );
+insert into claim_questions values(3014,114,'Gnrl_Mrcht','Paid Insurance on time for Merchant? ','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+insert into claim_questions values(3015,115,'Gnrl_Mrcht','Applied FIR for Merchant?','Yes' ,100,'No',200,'Not Sure',300,'Others',400 );
+
+create table policy_Details(policy_number number(10) references policy(policy_number), question_id varchar2(10) references claim_questions(claim_ques_id), answer varchar2(30));
+
+commit;
